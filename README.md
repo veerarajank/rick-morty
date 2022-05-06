@@ -8,7 +8,7 @@ For more details [Rick & Morty Wiki](https://en.wikipedia.org/wiki/Rick_and_Mort
 
 [Rick & Morty API](https://rickandmortyapi.com/) is already available in open source. Consume those API's and show as a profile using React JS.
 
-### Libraries
+## Libraries
 
 react - for creating components
 
@@ -21,8 +21,5 @@ es-lint - for style checking
 
 ## Installation
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
 
 ## Demo
