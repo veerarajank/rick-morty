@@ -21,5 +21,9 @@ es-lint - for style checking
 
 ## Installation
 
+1. [git pull repository](https://www.atlassian.com/git/tutorials/syncing/git-pull#:~:text=The%20git%20pull%20command%20is,Git%2Dbased%20collaboration%20work%20flows)
+2. run [npm install](https://docs.npmjs.com/cli/v6/commands/npm-install) in local repository 
 
 ## Demo
+
+Available in [youtube](https://youtu.be/INN2LIh-5Lw)
