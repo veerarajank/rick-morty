@@ -11,9 +11,13 @@ For more details [Rick & Morty Wiki](https://en.wikipedia.org/wiki/Rick_and_Mort
 ### Libraries
 
 react - for creating components
+
 axios - for accessing API
+
 prop-types - for type checking
+
 es-lint - for style checking
+
 
 ## Installation
 
