@@ -1,38 +1,134 @@
-.App {
+.header {
+  text-align: center;
+  font-size: xx-large;
+  width: auto;
+  height: 50px;
+  padding-top: 1rem;
+  color: #202329;
+  display: flex;
+  padding-bottom: 2rem;
+}
+.header-title {
+  padding-left: 35%;
+}
+.main-container {
+  background-color: #24282F;
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 425px);
+  grid-auto-rows: repeat(auto-fill, 700px);
+  grid-gap: 1rem;
+  padding-left: 100px;
+}
+.card {
+  border: 2px solid #9E9E9E;
+  border-radius: 4px;
+  width: 350px;
+  height: 700px;
+  background-color: #9E9E9E;
+  text-align: center;
+  padding: 5px;
+}
+.card-subheader {
+  font-size: 10px;
+}
+.card-character{
+  display: flex;
+}
+.card-subcontent {
+  font-size: 12px;
+  color: #F5F5F5;
+  padding-left: 3px;
+}
+.card-title {
+  font-size: 16px;
+  color: #F5F5F5;
+}
+.card-dot {
+  height: 8px;
+  width: 8px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+.card-species {
+  padding-left: 4px;
+  font-size: 12px;
+}
+.card-specification {
+  background-color: grey;
+  width: "200px";
+  height: "150px";
+  text-align:start;
+}
+.card-specification-title{
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.more {
+  font-size: 32px;
+  text-align: right;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.popup-box {
+  position: fixed;
+  background: #00000050;
+  width: 100%;
+  height: 100vh;
+  bottom: 40px;
+  left: 0;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.box {
+  position: relative;
+  width: 50%;
+  margin: 0 auto;
+  height: auto;
+  max-height: 70vh;
+  margin-top: calc(100vh - 85vh - 20px);
+  background: #24282F;
+  border-radius: 4px;
+  padding: 20px;
+  border: 1px solid #999;
+  overflow: auto;
+  color: #F5F5F5;
+}
+.close-icon {
+  content: 'x';
+  height: 25px;
+  width: 25px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+.popup-table{
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  padding-top: 10px;
+}
+.popup-table td, .popup-table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+.popup-table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #04AA6D;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.Next {
+  font-size: 72px;
+  color: #F5F5F5 ;
+  position: fixed;
+  bottom: 500px;
+  right: 10px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Prev {
+  font-size: 72px;
+  color: #F5F5F5 ;
+  position: fixed;
+  left: 10px;
+  bottom: 500px;
 }
